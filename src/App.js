@@ -25,7 +25,7 @@ const App = ({ additionalPrice, car, store, addCar, remove }) => {
         <AddedFeatures car={car}  removeFeature={removeFeature}/>
       </div>
       <div className="box">
-        <AdditionalFeatures store={store}  butItem={buyItem}/>
+        <AdditionalFeatures store={store}  buyItem={buyItem}/>
         <Total car={car} additionalPrice={additionalPrice} />
       </div>
     </div>

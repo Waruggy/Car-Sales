@@ -9,7 +9,7 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { carInfoReducer } from './store/reducer'
 
- const store = createStore(carInfoReducer)
+ const store = createStore(carInfoReducer);
 
 
 const rootElement = document.getElementById('root');

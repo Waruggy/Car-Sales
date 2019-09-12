@@ -32,7 +32,7 @@ const App = ({ additionalPrice, car, store, addCar, remove }) => {
   );
 };
 
-const mapStateToProps = ({ additionalPrice, car, store}) => {
+const mapStateToProps = ({ additionalPrice, car, store }) => {
   console.log(additionalPrice)
 
    return {
